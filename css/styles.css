@@ -268,10 +268,7 @@ button {
 
 }
 
-.paragraf:hover,
-.paragraf:focus {
-    transform: translateY(0%);
-}
+
 
 .kart {
     position: relative;
@@ -293,6 +290,10 @@ button {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.parik:hover,
+.parik:focus {
+    transform: translateY(0%);
+}
 
 .sectio {
     padding-bottom: 120px;
