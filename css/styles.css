@@ -290,8 +290,8 @@ button {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.parik:hover,
-.parik:focus {
+.linki:hover .parik,
+.linki:focus .parik {
     transform: translateY(0%);
 }
 
@@ -524,13 +524,16 @@ button {
 .knop:focus {
     background-color: #404bbf; 
     border: none; 
-    fill: #ffffff;
 }
 
 .rat {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.knop:hover .rat,
+.knop:focus .rat {
+    fill: #ffffff;
+}
 
 button:hover,
 button:focus {
